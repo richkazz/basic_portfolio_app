@@ -30,14 +30,13 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
 
         appBar: AppBar(title: Text(widget.title)),
-        drawer: Drawer(child: ListView(children: [])),
         body: Column(
           children: [
             Center(
@@ -50,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: RaisedButton(
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20)),
-                        color: Colors.black54,
+                        color: Color.fromARGB(80, 0, 0, 0),
                         textColor: Colors.white,
                         child: Text(
                           'About Me',
@@ -66,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: RaisedButton(
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20)),
-                        color: Colors.black54,
+                        color: Color.fromARGB(80, 0, 0, 0),
                         textColor: Colors.white,
                         child: Text(
                           'Experiences',
@@ -82,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: RaisedButton(
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20)),
-                        color: Colors.black54,
+                        color: Color.fromARGB(80, 0, 0, 0),
                         textColor: Colors.white,
                         child: Text(
                           'Services',
