@@ -236,7 +236,7 @@ class UserName extends StatelessWidget {
             Container(
               child: Text(
                 "Mobile developer",
-                style: TextStyle(fontWeight: FontWeight.normal, fontSize: 12.0),
+                style: TextStyle(fontWeight: FontWeight.w300, fontSize: 14.0),
               ),
               margin: EdgeInsets.only(top: 14.0),
             )
